@@ -1,0 +1,27 @@
+# Grails / Gradle / IDE
+.gradle/
+build/
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+bin/
+
+# Log output
+*.log
+logs/
+
+# Node / npm (Tailwind CSS build)
+node_modules/
+
+# Tailwind CLI generated CSS - regenerated on every build via the
+# tailwindBuild Gradle task; never commit the minified output.
+grails-app/assets/stylesheets/app.css
+
+# OS noise
+.DS_Store
+Thumbs.db
